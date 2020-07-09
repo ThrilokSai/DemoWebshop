@@ -1,0 +1,18 @@
+package simupload;
+
+import java.awt.AWTException;
+
+public class SimUpload {
+
+	public static void main(String[] args) throws InterruptedException, AWTException {
+		Methods methods= new Methods();
+		methods.launchbrowser();
+		methods.login();
+		methods.simloader();
+		methods.prepaid();
+		methods.upload();
+		methods.test();
+		//methods.importfile();
+	}
+
+}
